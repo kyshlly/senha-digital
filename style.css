@@ -1,7 +1,7 @@
 @import url(https://www.dafont.com/pt/starlamp.font);
 
 :root {
-    --branco: white;
+    --preto: rgb(0, 0, 0);
     --cor-de-fundo: #ffd0e4;
     --fundo-senha: #ffb6e1;
     --fundo-texto: #e00484;
@@ -15,7 +15,7 @@
 }
 
 body {
-    color: var(--branco);
+    color: var(--preto);
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
 }
@@ -44,7 +44,7 @@ body {
 #campo-senha {
     background-color: var(--fundo-senha);
     border: none;
-    color: var(--branco);
+    color: var(--preto);
     font-family: var(--roboto-mono);
     font-size: 40px;
     width: 70%;
@@ -93,7 +93,7 @@ body {
 
 .parametro-senha__botao {
     background-color: var(--fundo-texto);
-    color: var(--branco);
+    color: var(--preto);
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
